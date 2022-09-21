@@ -3,7 +3,7 @@
 
 ## Classes
 
-### Prefer to composition over inheritance
+### Prefer composition over inheritance
 
 As stated famously in [*Design Patterns*](https://en.wikipedia.org/wiki/Design_Patterns) by the Gang of Four,
 you should prefer composition over inheritance where you can. There are lots of
@@ -16,11 +16,16 @@ You might be wondering then, "when should I use inheritance?" It
 depends on your problem at hand, but this is a decent list of when inheritance
 makes more sense than composition:
 
-1. Your inheritance represents an "is-a" relationship and not a "has-a"
-   relationship (Human->Animal vs. User->UserDetails).
-2. You can reuse code from the base classes (Humans can move like all animals).
+1. Your inheritance represents an "is-a" relationship and not a "has-a" relationship (Toyota->Car vs. Car->Engine).
+2. You can reuse code from the base classes.
 3. You want to make global changes to derived classes by changing a base class.
-   (Change the caloric expenditure of all animals when they move).
+
+**IS-A Relationship:**
+In object-oriented programming, the concept of IS-A is a totally based on Inheritance, which can be of two types Class Inheritance or Interface Inheritance. It is just like saying "A is a B type of thing". For example, Apple is a Fruit, Car is a Vehicle etc. Inheritance is uni-directional. For example, House is a Building. But Building is not a House.
+It is a key point to note that you can easily identify the IS-A relationship. Wherever you see an extends keyword or implements keyword in a class declaration, then this class is said to have IS-A relationship.
+
+**HAS-A Relationship:**
+Composition(HAS-A) simply mean the use of instance variables that are references to other objects. For example Maruti has Engine, or House has Bathroom.
 
 **Bad:**
 
@@ -106,8 +111,7 @@ class Employee
 
 ### Avoid fluent interfaces
 
-A [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) is an object
-oriented API that aims to improve the readability of the source code by using
+A [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) is an object-oriented API that aims to improve the readability of the source code by using
 [Method chaining](https://en.wikipedia.org/wiki/Method_chaining).
 
 While there can be some contexts, frequently builder objects, where this

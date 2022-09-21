@@ -59,6 +59,7 @@ Even bad code can function. But if code isn't clean, it can bring a development 
      * [Use object encapsulation](./htmls/objects.md#use-object-encapsulation)
      * [Make objects have private/protected members](./htmls/objects.md#make-objects-have-privateprotected-members)
   8. [Classes](./htmls/classes.md)
+     * [Prefer composition over inheritance](./htmls/classes.md#prefer-composition-over-inheritance)
      * [Avoid fluent interfaces](./htmls/classes.md#avoid-fluent-interfaces)
      * [Prefer final classes](./htmls/classes.md#prefer-final-classes)
   9. [SOLID](./htmls/solid.md)
@@ -68,4 +69,6 @@ Even bad code can function. But if code isn't clean, it can bring a development 
      * [Interface Segregation Principle (ISP)](./htmls/solid.md#interface-segregation-principle-isp)
      * [Dependency Inversion Principle (DIP)](./htmls/solid.md#dependency-inversion-principle-dip)
   10. [Don’t repeat yourself (DRY)](./htmls/dry.md)
- 
+  
+
+
