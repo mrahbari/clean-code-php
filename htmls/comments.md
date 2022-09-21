@@ -20,6 +20,9 @@ but this comment is written as a multi-line comment
 */
 ```
 
+**[⬆ back to top](#comments)**
+
+
 ### Nonlocal Comment
 Here’s an example of bad comment. The default time out is 5000, but it doesn’t specify where this value was set.
 ```
@@ -33,6 +36,8 @@ Never comment about some code that’s not present. Instead, try to provide some
 int timeout = 2000;
 ```
 
+**[⬆ back to top](#comments)**
+
 ### Never, Ever, Ever Comment Out Code!
 We sometimes comment out code, thinking we (or someone else) might need that piece of code later.
 ```
@@ -41,6 +46,8 @@ We sometimes comment out code, thinking we (or someone else) might need that pie
 // }
 ```
 
+**[⬆ back to top](#comments)**
+
 ### Don’t Make Comments Harder Than the Code
 Never comment something harder than the code itself. Like the following one:
 ```
@@ -48,6 +55,8 @@ Never comment something harder than the code itself. Like the following one:
 // for date and time and check the logic
 boolean checkIfDateIsValid()
 ```
+
+**[⬆ back to top](#comments)**
 
 ### Never Comment the Obvious
 Some comments are so obvious that it’s ridiculous to comment them out.
@@ -59,6 +68,7 @@ try{
 }
 ```
 
+**[⬆ back to top](#comments)**
 
 ### Always try to explain yourself in code
 It only takes a few seconds to clear the majority of your thoughts in code.
@@ -74,6 +84,8 @@ Or you can avoid comment using a function with descriptive as below:
 ```
 if (employee.isEligibleForFullBenefits())
 ```
+
+**[⬆ back to top](#comments)**
 
 ### Avoid redundant comments
 A comment is redundant if it describes something that adequately describes itself. Comments should say things that the code cannot say for itself.
@@ -109,6 +121,8 @@ It is just plain silly to have a rule that says that every function and variable
   }
 ```
 
+**[⬆ back to top](#comments)**
+
 ### Avoid closing brace comments
   If you find yourself wanting to mark your closing braces, try to shorten your functions instead.
 ```  
@@ -118,6 +132,8 @@ It is just plain silly to have a rule that says that every function and variable
   } // end of while
   return $output;
   ```
+
+**[⬆ back to top](#comments)**
 
 ### Avoid position markers
   There are rare times when they make sense, but in general they are clutter that should be eliminated.
@@ -129,6 +145,8 @@ It is just plain silly to have a rule that says that every function and variable
   private $error;
   private $helo_rply;
 ```
+
+**[⬆ back to top](#comments)**
 
 ### Avoid HTML comments
   It makes the comments hard to read in the one place where they should be easy to read—the editor/IDE.
@@ -144,6 +162,8 @@ It is just plain silly to have a rule that says that every function and variable
 */
 ```
 
+**[⬆ back to top](#comments)**
+
 ### Don't give too much information
   Don’t put interesting historical discussions or irrelevant descriptions of details into your comments.
 ```
@@ -153,10 +173,14 @@ It is just plain silly to have a rule that says that every function and variable
   // These 24 bits are then treated as 4 concatenated 6-bit groups ...
 ```  
 
+**[⬆ back to top](#comments)**
+
 ### Explaining Unclear Code
 ```
 int timeout = 5; // timeout in seconds
 ```
+
+**[⬆ back to top](#comments)**
 
 ### TODO Comments
 When there are jobs that the programmer thinks should be done, but for some reason can’t do at the moment, it’s good to leave some “To do” notes in the form of `//TODO` comments. `//TODO` comments can give a message about what the function’s future should be.
@@ -167,6 +191,7 @@ otherwise, they become DONTDOs
 //TODO: calculation formula must be revise ASAP.
 ```
 
+**[⬆ back to top](#comments)**
 
 ### Use reference links for codes 
 ```
@@ -183,3 +208,5 @@ function combine(int $val1, int $val2): int
     return $val1 + $val2;
 }
 ```
+
+**[⬆ back to top](#comments)**

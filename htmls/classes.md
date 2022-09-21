@@ -3,7 +3,7 @@
 
 ## Classes
 
-### Prefer composition over inheritance
+### Prefer to composition over inheritance
 
 As stated famously in [*Design Patterns*](https://en.wikipedia.org/wiki/Design_Patterns) by the Gang of Four,
 you should prefer composition over inheritance where you can. There are lots of
@@ -102,7 +102,7 @@ class Employee
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#classes)**
 
 ### Avoid fluent interfaces
 
@@ -210,7 +210,7 @@ $car->setModel('F-150');
 $car->dump();
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#classes)**
 
 ### Prefer final classes
 
@@ -275,4 +275,4 @@ final class Car implements Vehicle
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#classes)**

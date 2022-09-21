@@ -73,7 +73,7 @@ $bankAccount->withdraw($shoesPrice);
 $balance = $bankAccount->getBalance();
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#objects-and-data-structures)**
 
 ### Make objects have private/protected members
 
@@ -126,4 +126,4 @@ $employee = new Employee('John Doe');
 echo 'Employee name: ' . $employee->getName();
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#objects-and-data-structures)**

@@ -35,7 +35,7 @@ if ($a !== $b) {
 
 The comparison `$a !== $b` returns `TRUE`.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#comparison)**
 
 ### Null coalescing operator
 
@@ -58,4 +58,4 @@ if (isset($_GET['name'])) {
 $name = $_GET['name'] ?? $_POST['name'] ?? 'nobody';
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#comparison)**

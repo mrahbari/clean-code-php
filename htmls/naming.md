@@ -16,7 +16,7 @@ $accountList
 $accounts
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#meaningful-names)**
 
 ### Use pronounceable names
 How can you discuss it without sounding like an idiot?
@@ -31,7 +31,7 @@ class CstmrRcrd
 class Customer
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#meaningful-names)**
 
 ### Adjust the length of a name to the size of its scope
 Is it obvious outside the class body that WD is an acronym for work days per week?
@@ -45,7 +45,7 @@ const WD
 const WORK_DAYS_PER_WEEK
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#meaningful-names)**
 
 ### Methods should have verb names
 ```
@@ -54,7 +54,7 @@ function deletePage()
 function save()
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#meaningful-names)**
 
 ### Classes should have noun names
 ```
@@ -63,7 +63,7 @@ class WikiPage
 class Account
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#meaningful-names)**
 
 ### Boolean Variables/Functions should have a `is/has/can` prefix.
 Clean code reads like prose and these prefixes achieve clear and concise naming.
@@ -86,5 +86,5 @@ Function examples: `hasElements()`, `isFile(path)`, `user.hasAccessTo(file)` -->
 | Avoid `was/had`| `wasSend`, `hasBeenSent`, `hadArrived`            | `isSent`         |
 | Avoid `does`   | `doesUseIO`, `mightUseIO`      | `isUsingIO`, `canUseIO` |
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#meaningful-names)**
 

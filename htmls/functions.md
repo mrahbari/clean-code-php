@@ -20,7 +20,7 @@ public function getPaginator(Image $image, int $offset): Paginator
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Functions should do one thing
 Function is doing more than "one thing" if you can extract another function from it with a name that is not merely a restatement of its implementation.
@@ -60,7 +60,7 @@ protected function calculateAndDeliverPay(Employee $employee): void
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Follow the step-down rule
 We want every function to be followed by those at the next level of abstraction so that `we can read code from top to bottom`.
@@ -88,7 +88,7 @@ protected function calculateAndDeliverPay(Employee $employee): void
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Avoid Side Effects
 The side effect is the call to session_start(). The checkPassword function, by its name, says that it checks the password. The name does not imply that it initializes the session.
@@ -134,7 +134,7 @@ function createMicrobrewery(string $breweryName = 'Hipster Brew Co.'): void
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Function arguments (2 or fewer ideally)
 
@@ -230,7 +230,7 @@ class Questionnaire
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Function names should say what they do
 
@@ -270,7 +270,7 @@ $message = new Email(...);
 $message->send();
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Functions should only be one level of abstraction
 
@@ -408,7 +408,7 @@ class BetterPHPAlternative
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Don't use flags as function parameters
 
@@ -443,7 +443,7 @@ function createTempFile(string $name): void
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Don't write to global functions
 
@@ -494,7 +494,7 @@ $configuration = new Configuration([
 
 And now you must use instance of `Configuration` in your application.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Encapsulate conditionals
 
@@ -514,7 +514,7 @@ if ($article->isPublished()) {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Avoid negative conditionals
 
@@ -544,7 +544,7 @@ if (isDOMNodePresent($node)) {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Avoid conditionals
 
@@ -621,7 +621,7 @@ class Cessna implements Airplane
 The normal approach to use while working with this kind of scenario would be to use the **Design Pattern**.
 
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Avoid type-checking (part 1)
 
@@ -670,7 +670,7 @@ class Vehicle
 ```
 The normal approach to use while working with this kind of scenario would be to use the **Design Pattern**.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Avoid type-checking (part 2)
 
@@ -706,7 +706,7 @@ function combine(int $val1, int $val2): int
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 
 ### Remove dead code
 
@@ -743,5 +743,5 @@ $request = requestModule($requestUrl);
 inventoryTracker('apples', $request, 'www.inventory-awesome.io');
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#functions)**
 

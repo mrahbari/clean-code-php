@@ -86,7 +86,7 @@ class UserSettings
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#solid)**
 
 ### Open/Closed Principle (OCP)
 
@@ -200,7 +200,7 @@ class HttpRequester
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#solid)**
 
 ### Liskov Substitution Principle (LSP)
 
@@ -329,7 +329,7 @@ foreach ($shapes as $shape) {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#solid)**
 
 ### Interface Segregation Principle (ISP)
 
@@ -420,7 +420,7 @@ class RobotEmployee implements Workable
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#solid)**
 
 ### Dependency Inversion Principle (DIP)
 
@@ -512,4 +512,4 @@ class Manager
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#solid)**

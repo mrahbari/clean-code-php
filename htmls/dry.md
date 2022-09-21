@@ -82,4 +82,3 @@ function showList(array $employees): void
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
