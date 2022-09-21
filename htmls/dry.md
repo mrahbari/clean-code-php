@@ -1,4 +1,4 @@
-⬆️ [Go to main menu](../README.md) ⬅️ [Previous (Comparison)](comparison.md) ➡️ [Next (Comments)](comments.md)
+⬆️ [Go to main menu](../README.md) ⬅️ [Previous (solid)](comparison.md)
 
 ## Don’t repeat yourself (DRY)
 
