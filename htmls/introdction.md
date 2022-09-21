@@ -3,8 +3,6 @@
 
 ## Clean Code
 
-Even bad code can function. But if code isn't clean, it can bring a development organization to its knees.
-
 #### Writing clean, understandable, and maintainable code is a skill that is crucial for every developer to master.
 
 Most examples are taken from `Robert J. Martin's book Clean Code`, adapted for PHP.
