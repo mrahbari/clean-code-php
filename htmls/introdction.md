@@ -13,4 +13,4 @@ Not every principle herein has to be strictly followed, and even fewer will be u
 
 ![alt text](../images/clean-code.jpg)
 
-##### Inspired from [clean-code-php] (https://github.com/jupeter/clean-code-php).
+##### Inspired from [clean-code-php](https://github.com/jupeter/clean-code-php).
