@@ -1,6 +1,6 @@
 # Clean Code PHP
 
-Clean code is code that is easy to understand and easy to change.
+Clean code is code that is `easy to understand` and `easy to change`.
 Even bad code can function. But if code isn't clean, it can bring a development organization to its knees.
 
 ## Table of Contents
