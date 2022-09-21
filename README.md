@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-  1. [Introduction](#introduction)
+  1. [Introduction](./htmls/introduction.md)
   2. [Variables](#variables)
      * [Use meaningful and pronounceable variable names](#use-meaningful-and-pronounceable-variable-names)
      * [Use the same vocabulary for the same type of variable](#use-the-same-vocabulary-for-the-same-type-of-variable)
