@@ -1,6 +1,6 @@
 ⬆️ [Go to main menu](../README.md) ⬅️ [Previous (Introduction)](introdction.md) ➡️ [Next (Naming)](naming.md)
 
-## Variables (#table-of-contents)
+## Variables
 
 ### Use meaningful and pronounceable variable names
 
@@ -16,7 +16,7 @@ $ymdstr = $moment->format('y-m-d');
 $currentDate = $moment->format('y-m-d');
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#variables)**
 
 ### Use the same vocabulary for the same type of variable
 
@@ -35,7 +35,7 @@ getUserProfile();
 getUser();
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#variables)**
 
 ### Use searchable names (part 1)
 
@@ -98,7 +98,7 @@ if ($user->access & User::ACCESS_UPDATE) {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#variables)**
 
 ### Avoid nesting too deeply and return early (part 1)
 
@@ -143,7 +143,7 @@ function isShopOpen(string $day): bool
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#variables)**
 
 ### Avoid nesting too deeply and return early (part 2)
 
@@ -182,7 +182,7 @@ function fibonacci(int $n): int
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#variables)**
 
 ### Avoid Mental Mapping
 
@@ -221,7 +221,7 @@ foreach ($locations as $location) {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#variables)**
 
 ### Don't add unneeded context
 
